@@ -7,17 +7,19 @@ Tasks:
 
 
 Course - with submenu items relevant to our course
-*link to Kurose and Ross author/book page
-*link to http://w3schools.com
+* link to Kurose and Ross author/book page
+* link to http://w3schools.com
 * link to https://www.geeksforgeeks.org/web-development/ 
 * See https://www.w3schools.com/howto/default.asp
+  
 Browser - with submenu items respectively communicating the following attributes
 * Navigator - appName, product, appVersion, userAgent, platform, language
 * Window - innerHeight, innerWidth
 * Screen - width, height, availWidth, availHeight, colorDepth, pixelDepth
 * Location - href, hostname, pathname, protocol
 * Geolocation - Latitude, Longitude
-* See https://www.w3schools.com/js/js_window.asp 
+* See https://www.w3schools.com/js/js_window.asp
+  
 About – with submenu items to 
 * Description of the developer of the page (i.e. you, the student) with optional photo
 * Contact Me email form - see to contact you by email. 
