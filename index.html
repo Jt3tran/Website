@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Course</a>
+                <div class="submenu">
+                    <a href="https://gaia.cs.umass.edu/kurose_ross/eighth.php">Kurose and Ross Book Page</a>
+                    <a href="http://w3schools.com">W3Schools</a>
+                    <a href="https://www.geeksforgeeks.org/web-development/">GeeksforGeeks</a>
+                </div>
+            </li>
+            <li><a href="#">Browser</a>
+                <div class="submenu">
+                    <a href="#" id="navigator">Navigator</a>
+                    <a href="#" id="window">Window</a>
+                    <a href="#" id="screen">Screen</a>
+                    <a href="#" id="location">Location</a>
+                    <a href="#" id="geolocation">Geolocation</a>
+                </div>
+            </li>
+            <li><a href="#">About</a>
+                <div class="submenu">
+                    <a href="https://www.linkedin.com/in/jordan-tran-/">Description of the developer</a>
+                    <a href="mailto:Jordan.Tran39@qmail.cuny.edu">Contact Me</a>
+                    <h2>Send e-mail to JordTran39@qmail.cuny.edu:</h2>
+
+                        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                        Name:<br>
+                        <input type="text" name="name"><br>
+                        E-mail:<br>
+                        <input type="text" name="mail"><br>
+                        Comment:<br>
+                        <input type="text" name="comment" size="50"><br><br>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                        </form>
+
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Welcome to Jordan's Webpage</h1>
+        <p>Enjoy This Dance  </p>
+        <div class="Dancing">
+            <img src="Winnie.gif" alt="Hello">
+        </div>
+          <div id="output"></div>
+        <div class="small-image">
+            <img src="killua.gif" alt="Killua">
+    </div>
+    <footer>
+        <p>&copy; 2024 Jordan Tran. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
